@@ -1,0 +1,30 @@
+(**) Euler Polyhedra Graph
+(**) Program by Dr. Alex Kontorovich, Rutgers University
+(**) The script generates a movie (gif format) of a graph of Polyhedra which follow Euler's Theorem of V-E+F=2
+
+(**) Reference Article
+(**) Toplogy 101: The Hole Truth
+(**) David S. Richeson
+(**) Quanta Magazine, January 26, 2021
+(**) https://www.quantamagazine.org/topology-101-how-mathematicians-study-holes-20210126/
+
+PolyMove[poly_] := Translate[PolyhedronData[poly, "GraphicsComplex"],
+   {
+    PolyhedronData[poly, "VertexCount"],
+    PolyhedronData[poly, "EdgeCount"],
+    PolyhedronData[poly, "FaceCount"]
+    }
+   ];
+mov = Table[
+   Show[Graphics3D[{Text["Vertices", 
+       Scaled[{0.5, -0.05, -0.5}], {0, -1}],
+      Text["Edges", Scaled[{-0.5, 0.5, -0.5}], {0, -1}],
+      Text["Faces", Scaled[{-0.05, -0.05, 0.5}], {0, -1}],
+      Select[PolyMove /@ PolyhedronData["Convex"], 
+       Max[#[[2]]] < 50 &]}],
+    SphericalRegion -> True, 
+    ImageSize -> {360.13516981840553, 336.35431097198926},
+    ViewVertical -> {0, 0, 1}, 
+    ViewPoint -> {3 Cos[theta], 3 Sin[theta], 0}],
+   {theta, 0, 2 Pi, Pi/50}];
+Export["EulerChar.gif", mov]
