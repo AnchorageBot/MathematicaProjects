@@ -1,6 +1,6 @@
 ## Mathematica Projects
 
-This github repository holds code resulting from mathematica projects
+This github repository holds code resulting from various mathematica projects
 
 ## Integrated Development Environment
 
