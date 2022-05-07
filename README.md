@@ -16,5 +16,9 @@ This github repository holds code resulting from various mathematica projects
 
 [Computational Financial Mathematics Using Mathematica: Optimal Trading in Stocks and Options](https://www.wolfram.com/books/profile.cgi?id=4725)
 
+## Fun things to think about
+
+[Tensor for Beginners YouTubes by EigenChris](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
