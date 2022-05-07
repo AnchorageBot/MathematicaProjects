@@ -18,7 +18,7 @@ This github repository holds code resulting from various mathematica projects
 
 ## Fun things to think about
 
-[Tensors for Beginners by EigenChris - YouTubes](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
+[Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
