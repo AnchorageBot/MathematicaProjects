@@ -14,6 +14,8 @@ This github repository holds code resulting from various mathematica projects
 
 [Mathematica a Practical Approach](https://www.wolfram.com/books/profile.cgi?id=3721)
 
+[Schaum's Outlines Mathematica](https://www.wolfram.com/books/profile.cgi?id=9730)
+
 [Computational Financial Mathematics Using Mathematica: Optimal Trading in Stocks and Options](https://www.wolfram.com/books/profile.cgi?id=4725)
 
 ## Fun things to think about
