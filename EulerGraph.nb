@@ -1,12 +1,16 @@
-(**) Euler Polyhedra Graph
-(**) Program by Dr. Alex Kontorovich, Rutgers University
-(**) The script generates a movie (gif format) of a graph of Polyhedra which follow Euler's Theorem of V-E+F=2
+(*
 
-(**) Reference Article
-(**) Toplogy 101: The Hole Truth
-(**) David S. Richeson
-(**) Quanta Magazine, January 26, 2021
-(**) https://www.quantamagazine.org/topology-101-how-mathematicians-study-holes-20210126/
+* Euler Polyhedra Graph
+   * Program by Dr. Alex Kontorovich, Rutgers University
+   * The script generates a movie (gif format) of a graph of Polyhedra which follow Euler's Theorem of V-E+F=2
+
+* Reference Article
+   * Toplogy 101: The Hole Truth
+   * David S. Richeson
+   * Quanta Magazine, January 26, 2021
+   * https://www.quantamagazine.org/topology-101-how-mathematicians-study-holes-20210126/
+   
+*)
 
 PolyMove[poly_] := Translate[PolyhedronData[poly, "GraphicsComplex"],
    {
