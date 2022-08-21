@@ -1,13 +1,16 @@
-(**) This notebook will examine some of the properties of a dodecahedron
-  (**)  References:
-    (**)  Wolfram Polyhedron Data
-      (**)  https://reference.wolfram.com/language/ref/PolyhedronData.html
-     (**)  Wikipedia Platonic Solids
-      (**)  https://en.wikipedia.org/wiki/Platonic_solid
-     (**)  Euler's Polyhedron Formula by Abigail Kirk
-      (**)  https://plus.maths.org/content/eulers-polyhedron-formula
+(*
+* This notebook will examine some of the properties of a dodecahedron
+
+* References:
+  * Wolfram Polyhedron Data
+      * https://reference.wolfram.com/language/ref/PolyhedronData.html
+  * Wikipedia Platonic Solids
+      * https://en.wikipedia.org/wiki/Platonic_solid
+  * Euler's Polyhedron Formula by Abigail Kirk
+      * https://plus.maths.org/content/eulers-polyhedron-formula
       
-(**)  Dodecahedron (V-E+F=2, 20-30+12=2)
+* Dodecahedron (V-E+F=2, 20-30+12=2)
+*)
 
 PolyhedronData["Dodecahedron", "VertexCount"]
 PolyhedronData["Dodecahedron", "EdgeCount"]
