@@ -28,9 +28,13 @@ This github repository holds code resulting from various mathematica projects
 
 [Project Euler](https://projecteuler.net/about)
 
-[Quanta Magazine](https://www.quantamagazine.org)
+Topology
+
+- [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
 
 - [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
+
+- [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
 Shannon Entropy
 
