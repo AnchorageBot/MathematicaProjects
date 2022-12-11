@@ -32,9 +32,9 @@ This github repository holds code resulting from various mathematica projects
 
 Shannon Entropy
 
-- [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
-
 - [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
+
+- [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
 
 [Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
 
