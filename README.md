@@ -22,6 +22,8 @@ This github repository holds code resulting from various mathematica projects
 
 [Art of Problem Solving](https://artofproblemsolving.com/company)
 
+[Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
+
 [Math Overflow](https://mathoverflow.net)
 
 [Project Euler](https://projecteuler.net/about)
