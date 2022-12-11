@@ -28,14 +28,6 @@ This github repository holds code resulting from various mathematica projects
 
 [Project Euler](https://projecteuler.net/about)
 
-Topology
-
-- [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
-
-- [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
-
-- [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
-
 Shannon Entropy
 
 - [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
@@ -45,6 +37,14 @@ Shannon Entropy
 - [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
 
 [Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
+
+Topology
+
+- [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
+
+- [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
+
+- [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
 [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
