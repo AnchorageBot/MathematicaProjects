@@ -26,6 +26,10 @@ This github repository holds code resulting from various mathematica projects
 
 [Project Euler](https://projecteuler.net/about)
 
+[Quanta Magazine](https://www.quantamagazine.org)
+
+- [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
+
 Shannon Entropy
 
 - [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
