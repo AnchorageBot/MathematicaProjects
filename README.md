@@ -26,6 +26,8 @@ This github repository holds code resulting from various mathematica projects
 
 [Math Overflow](https://mathoverflow.net)
 
+[Mathematical Methods for Physics and Engineering - Riley, Hobson, Bence](https://www.cambridge.org/core/books/mathematical-methods-for-physics-and-engineering/911A43AE1CF224743D32707FCC4AE0EB)
+
 [Project Euler](https://projecteuler.net/about)
 
 Shannon Entropy
