@@ -48,6 +48,8 @@ Topology
 
 - [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
+- [A Gentle Introduction to Knots, Links, and Braids - Ruben Aldrovandi](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
+
 [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
 ## License
