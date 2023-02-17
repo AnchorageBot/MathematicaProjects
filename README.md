@@ -48,7 +48,9 @@ Topology
 
 - [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
-- [A Gentle Introduction to Knots, Links, and Braids - Ruben Aldrovandi](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
+- [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
+
+- [Getting a Handle on the Conway Knot - Dr. Jennifer Hom](https://www.ams.org/journals/bull/2022-59-01/S0273-0979-2021-01745-9/S0273-0979-2021-01745-9.pdf)
 
 [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
