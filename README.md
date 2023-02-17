@@ -44,9 +44,9 @@ Topology
 
 - [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
 
-- [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
-
 - [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
+
+- [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
 
 - [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
 
