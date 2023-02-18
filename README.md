@@ -48,7 +48,7 @@ Topology
 
 - [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
 
-- [Getting a Handle on the Conway Knot - Dr. Jennifer Hom](https://www.ams.org/journals/bull/2022-59-01/S0273-0979-2021-01745-9/S0273-0979-2021-01745-9.pdf)
+- [Getting a Handle on the Conway Knot - Dr. Jennifer Hom](https://www.ams.org/journals/bull/2022-59-01/S0273-0979-2021-01745-9/)
 
 - [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi and Dr. Roldao Da Rocha Jr](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
 
