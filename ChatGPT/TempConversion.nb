@@ -1,0 +1,35 @@
+(*
+This script will convert temperature from Celsius to Fahrenheit 
+
+This script was made by chat GPT 
+https://openai.com/blog/chatgpt 
+March 2023 
+
+Here's how the script works:
+
+\[Bullet] The script first prompts the user to enter the temperature \
+in Fahrenheit using the Input function and stores the input value in \
+the variable fahrenheit.
+\[Bullet] The script then uses the formula (fahrenheit-32)*(5/9) to \
+convert the temperature from Fahrenheit to Celsius and stores the \
+result in the variable celsius.
+\[Bullet] Finally,the script uses the Print function to display the \
+converted temperature in Celsius.
+
+You can save this script with any name and run it in Mathematica.
+
+To run the script,simply open a new notebook in Mathematica,copy and \
+paste the script into a cell and then press the Shift+Enter keys to \
+evaluate the cell.
+*)
+
+(*Ask user to input temperature in Fahrenheit*)
+fahrenheit = Input["Enter temperature in Fahrenheit: "];
+
+(*Convert temperature from Fahrenheit to Celsius*)
+
+celsius = (fahrenheit - 32)*(5/9);
+
+(*Display the converted temperature in Celsius*)
+
+Print["Temperature in Celsius: ", celsius];
