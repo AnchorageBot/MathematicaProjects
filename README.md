@@ -52,6 +52,8 @@ Topology
 
 - [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi and Dr. Roldao Da Rocha Jr](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
 
+- [Elementary Topology: Problem Textbook - O. Ya. Viro et al](https://bookstore.ams.org/mbk-54)
+
 [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
 ## License
