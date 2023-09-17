@@ -46,7 +46,7 @@ Topology
 
 - [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
 
-- [Elementary Topology: Problem Textbook - O. Ya. Viro et al](https://bookstore.ams.org/mbk-54)
+- [Elementary Topology: Problem Textbook - Dr. O. Ya. Viro et al](https://bookstore.ams.org/mbk-54)
 
 - [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
