@@ -32,7 +32,7 @@ This github repository holds references for, and scripts resulting from, various
 
 [Project Euler](https://projecteuler.net/about)
 
-[Society for Industrial and Applied Mathematics](https://www.siam.org)
+[Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
 
 Shannon Entropy
 
