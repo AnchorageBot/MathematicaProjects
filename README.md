@@ -28,6 +28,8 @@ This github repository holds references for, and scripts resulting from, various
 
 [Mathematical Methods for Physics and Engineering - Riley, Hobson, Bence](https://www.cambridge.org/core/books/mathematical-methods-for-physics-and-engineering/911A43AE1CF224743D32707FCC4AE0EB)
 
+[Notices of the American Mathematical Society](https://www.ams.org/notices)
+
 [Project Euler](https://projecteuler.net/about)
 
 Shannon Entropy
