@@ -32,6 +32,8 @@ This github repository holds references for, and scripts resulting from, various
 
 [Project Euler](https://projecteuler.net/about)
 
+[Society for Industrial and Applied Mathematics](https://www.siam.org)
+
 Shannon Entropy
 
 - [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
