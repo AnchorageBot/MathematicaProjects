@@ -34,8 +34,6 @@ This github repository holds references for, and scripts resulting from, various
 
 [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
 
-[William Lowell Putnam Mathematical Competition](https://maa.org/math-competitions/william-lowell-putnam-mathematical-competition)
-
 Shannon Entropy
 
 - [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
@@ -63,6 +61,8 @@ Topology
 - [Getting a Handle on the Conway Knot - Dr. Jennifer Hom](https://www.ams.org/journals/bull/2022-59-01/S0273-0979-2021-01745-9/)
 
 - [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi and Dr. Roldao Da Rocha Jr](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
+
+[William Lowell Putnam Mathematical Competition](https://maa.org/math-competitions/william-lowell-putnam-mathematical-competition)
 
 [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
