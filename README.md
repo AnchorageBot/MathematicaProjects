@@ -34,6 +34,7 @@ This github repository holds references for, and scripts resulting from, various
 
 [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
 
+[William Lowell Putnam Mathematical Competition](https://maa.org/math-competitions/william-lowell-putnam-mathematical-competition)
 Shannon Entropy
 
 - [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
