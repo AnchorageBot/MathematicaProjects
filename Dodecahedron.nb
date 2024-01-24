@@ -9,7 +9,7 @@
   * Euler's Polyhedron Formula by Abigail Kirk
       * https://plus.maths.org/content/eulers-polyhedron-formula
       
-* Dodecahedron (V-E+F=2, 20-30+12=2)
+* Icosahedron (V-E+F=2, 20-30+12=2)
 *)
 
 PolyhedronData["Dodecahedron", "VertexCount"]
