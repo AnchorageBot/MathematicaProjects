@@ -42,6 +42,10 @@ Shannon Entropy
 
 - [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
 
+Taylor's Series
+
+* [Taylor Swift - Polynomial Approximations (Taylor's Version) - Mr. Schuler - YouTube](https://youtu.be/iB9r8mKMUtU?si=ptq_Q7oGyui7SIwC)
+
 Tensors
 
 - [Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
