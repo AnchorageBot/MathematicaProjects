@@ -42,7 +42,7 @@ Shannon Entropy
 
 - [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
 
-(Symbols)[https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols]
+[Symbols](https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
 Taylor's Series
 
