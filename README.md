@@ -42,6 +42,8 @@ Shannon Entropy
 
 - [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
 
+(Symbols)[https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols]
+
 Taylor's Series
 
 * [Taylor Swift - Polynomial Approximations (Taylor's Version) - Mr. Schuler - YouTube](https://youtu.be/iB9r8mKMUtU?si=ptq_Q7oGyui7SIwC)
