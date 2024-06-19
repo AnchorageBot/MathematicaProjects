@@ -21,6 +21,19 @@
    * 3D Laplace equation
    * The fundamental theorem of PDEs
 
-* Made with Mathematica 
+* Made with Mathematica/Wolfram Cloud 
    
 *)
+
+(*Define three functions*)
+u1[x_,y_] = x^2 - y^2;
+u2[x_,y_] = Exp[x]  Cos[y];
+u3[x_,y_] = Log[x^2 + y^2];
+
+(*Define the 2D Laplace operator*)
+del2D[u_]:= D[u,{x,2}]+ D[u,{y,2}]
+
+(*Verify that this solves the PDE*)
+del2D[u1[x,y]]
+del2D[u2[x,y]]
+del2D[u3[x,y]]//Simplify
