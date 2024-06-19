@@ -7,6 +7,8 @@ This github repository holds references for, and scripts resulting from, various
    * Cloud and Desktop [Mathematica](https://www.wolfram.com/mathematica/)
   
    * Raspberry Pi [Mathematica](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica)
+  
+   * Cloud [Wolfram Alpha](https://www.wolframalpha.com)
 
 ## How-to Mathematica Project Books
 
