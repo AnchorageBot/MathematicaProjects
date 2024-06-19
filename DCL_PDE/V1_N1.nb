@@ -4,7 +4,7 @@
    * Dr. Christopher Lum
    * YouTube
 
-* Notebook topics
+* Lecture & Notebook topics
    * Intial conditions
    * The order of a PDE
    * General form of a PDE
