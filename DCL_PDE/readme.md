@@ -3,3 +3,5 @@
 - - - -
 
 [Wolfram Alpha - Step by Step DE](https://www.wolframalpha.com/examples/pro-features/step-by-step-solutions/step-by-step-differential-equations)
+
+A differential equation is an equation involving a function and its derivatives.
