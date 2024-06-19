@@ -2,7 +2,7 @@
 
 This github repository holds references for, and scripts resulting from, various Mathematica projects
 
- * Integrated Development Environment
+ * Integrated Development Environments
 
    * Cloud and Desktop [Mathematica](https://www.wolfram.com/mathematica/)
   
