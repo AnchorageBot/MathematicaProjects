@@ -1,0 +1,26 @@
+(*
+
+* Introduction to Partial Differential Equations - Video 1 - Notebook 1
+   * Dr. Christopher Lum
+   * YouTube
+
+* Notebook topics
+   * Intial conditions
+   * The order of a PDE
+   * General form of a PDE
+   * Systems modeled by PDEs
+   * Diffusion of heat
+   * Notation
+   * Classification of PDEs
+   * General PDE
+   * Forcing function
+   * 1D heat equation
+   * 2D Laplace equation
+   * 2D Possion equation
+   * 2D wave equation
+   * 3D Laplace equation
+   * The fundamental theorem of PDEs
+
+* Made with Mathematica 
+   
+*)
