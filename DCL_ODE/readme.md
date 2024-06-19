@@ -6,3 +6,7 @@ ODEs contain one independent variable
 
 * LHS (left hand side) = RHS (right hand side)
 * function(s) = function(s)
+
+- - - -
+
+[Wolfram Alpha - Step by Step DE](https://www.wolframalpha.com/examples/pro-features/step-by-step-solutions/step-by-step-differential-equations)
