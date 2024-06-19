@@ -2,9 +2,9 @@
 
 This github repository holds references for, and scripts resulting from, various Mathematica projects
 
-## Integrated Development Environment
+ * Integrated Development Environment
 
-[Mathematica](https://www.wolfram.com/mathematica/)
+   * [Mathematica](https://www.wolfram.com/mathematica/)
 
 ## How-to Mathematica Project Books
 
