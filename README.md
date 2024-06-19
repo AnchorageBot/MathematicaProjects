@@ -4,7 +4,9 @@ This github repository holds references for, and scripts resulting from, various
 
  * Integrated Development Environment
 
-   * [Mathematica](https://www.wolfram.com/mathematica/)
+   * Cloud and Desktop [Mathematica](https://www.wolfram.com/mathematica/)
+  
+   * Raspberry Pi [Mathematica](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica)
 
 ## How-to Mathematica Project Books
 
