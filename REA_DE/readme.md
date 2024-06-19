@@ -1,3 +1,3 @@
 Research & Education Association
 
-REA Problem Solvers Differential Equations
+REA's Problem Solvers - Differential Equations - 1998 
