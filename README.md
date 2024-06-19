@@ -21,6 +21,8 @@ This github repository holds references for, and scripts resulting from, various
     * [Schaum's Outlines Mathematica](https://www.wolfram.com/books/profile.cgi?id=9730)
 
     * [Computational Financial Mathematics Using Mathematica: Optimal Trading in Stocks and Options](https://www.wolfram.com/books/profile.cgi?id=4725)
+  
+    * [Mathematical Methods for Physics and Engineering - Riley, Hobson, Bence](https://www.cambridge.org/core/books/mathematical-methods-for-physics-and-engineering/911A43AE1CF224743D32707FCC4AE0EB)
 
 ## Fun things to think about
 
@@ -29,8 +31,6 @@ This github repository holds references for, and scripts resulting from, various
 [Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
 
 [Math Overflow](https://mathoverflow.net)
-
-[Mathematical Methods for Physics and Engineering - Riley, Hobson, Bence](https://www.cambridge.org/core/books/mathematical-methods-for-physics-and-engineering/911A43AE1CF224743D32707FCC4AE0EB)
 
 [Notices of the American Mathematical Society](https://www.ams.org/notices)
 
