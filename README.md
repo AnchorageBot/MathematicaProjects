@@ -28,6 +28,8 @@ This github repository holds references for, and scripts resulting from, various
 
 * Books & Journals
 
+  * [arXiv - Math](https://arxiv.org/archive/math)
+
   * [Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
  
   * [Notices of the American Mathematical Society](https://www.ams.org/notices)
