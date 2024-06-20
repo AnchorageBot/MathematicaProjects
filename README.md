@@ -34,40 +34,41 @@ This github repository holds references for, and scripts resulting from, various
  
   * [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
 
-[Art of Problem Solving](https://artofproblemsolving.com/company)
+* Communities
 
-[Math Overflow](https://mathoverflow.net)
+  * [Art of Problem Solving](https://artofproblemsolving.com/company)
 
-[Project Euler](https://projecteuler.net/about)
+  * [Math Overflow](https://mathoverflow.net)
 
+  * [Project Euler](https://projecteuler.net/about)
 
-Shannon Entropy
+* Shannon Entropy
 
-- [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
+  * [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
 
-- [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
+  *  [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
 
-- [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
+  * [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
 
-[Symbols](https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
+* [Symbols](https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
-Taylor's Series
+* Taylor's Series
 
-* [Taylor Swift - Polynomial Approximations (Taylor's Version) - Mr. Schuler - YouTube](https://youtu.be/iB9r8mKMUtU?si=ptq_Q7oGyui7SIwC)
+  * [Taylor Swift - Polynomial Approximations (Taylor's Version) - Mr. Schuler - YouTube](https://youtu.be/iB9r8mKMUtU?si=ptq_Q7oGyui7SIwC)
 
-Tensors
+* Tensors
 
-- [Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
+  * [Tensors for Beginners by EigenChris - YouTube Series](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=1)
 
-Topology
+* Topology
 
-- [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
+  * [How Mathematicians Use Homology to Make Sense of Topology - Dr. Kelsey Houston-Edwards](https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/)
 
-- [Elementary Topology: Problem Textbook - Dr. O. Ya. Viro et al](https://bookstore.ams.org/mbk-54)
+  * [Elementary Topology: Problem Textbook - Dr. O. Ya. Viro et al](https://bookstore.ams.org/mbk-54)
 
-- [The Man Who Invented Fifteen Hundred Necktie Knots - Matthew Hutson](https://www.newyorker.com/culture/annals-of-inquiry/the-man-who-invented-fifteen-hundred-necktie-knots?utm_source=nl&utm_brand=tny&utm_mailing=TNY_Daily_111023&utm_campaign=aud-dev&utm_medium=email&utm_term=tny_daily_digest&bxid=5bd67c613f92a41245df5e2d&cndid=46262617&hasha=da303cb59434b9d8ea60715b62eedc2c&hashb=5119ac49982818ca5a2e08c2d44f0c17478d8500&hashc=2610d230132e433109dbe2916027d67920b2d297cec127ce4562826660c842ae&esrc=VERSO_NAVIGATION&mbid=CRMNYR012019)
+  * [The Man Who Invented Fifteen Hundred Necktie Knots - Matthew Hutson](https://www.newyorker.com/culture/annals-of-inquiry/the-man-who-invented-fifteen-hundred-necktie-knots?utm_source=nl&utm_brand=tny&utm_mailing=TNY_Daily_111023&utm_campaign=aud-dev&utm_medium=email&utm_term=tny_daily_digest&bxid=5bd67c613f92a41245df5e2d&cndid=46262617&hasha=da303cb59434b9d8ea60715b62eedc2c&hashb=5119ac49982818ca5a2e08c2d44f0c17478d8500&hashc=2610d230132e433109dbe2916027d67920b2d297cec127ce4562826660c842ae&esrc=VERSO_NAVIGATION&mbid=CRMNYR012019)
 
-- [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
+  * [Why Mathematicians Study Knots - Dr. David S. Richeson](https://www.quantamagazine.org/why-mathematicians-study-knots-20221031/)
 
 - [How Complex Is a Knot? New Proof Reveals Ranking System That Works - Dr. Leila Sloman](https://www.quantamagazine.org/how-complex-is-a-knot-new-proof-reveals-ranking-system-that-works-20220518/)
 
