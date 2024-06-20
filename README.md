@@ -33,6 +33,8 @@ This github repository holds references for, and scripts resulting from, various
   * [Notices of the American Mathematical Society](https://www.ams.org/notices)
  
   * [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
+ 
+  * [London Mathematical Society Journals](https://www.lms.ac.uk/publications/journals)
 
 * Communities
 
