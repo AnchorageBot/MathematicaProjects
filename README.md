@@ -36,7 +36,7 @@ This github repository holds references for, and scripts resulting from, various
  
   * [London Mathematical Society Journals](https://www.lms.ac.uk/publications/journals)
 
-* Communities
+* Communities & Projects
 
   * [Art of Problem Solving](https://artofproblemsolving.com/company)
 
