@@ -48,6 +48,19 @@ This github repository holds references for, and scripts resulting from, various
 
   * [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
+* Notation
+
+  * [Glossary of Mathematical Symbols - wiki](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
+
+  * [Greek Alphabet - wiki](https://en.wikipedia.org/wiki/Greek_alphabet)
+ 
+  * [Notation for differentiation - wiki](https://en.wikipedia.org/wiki/Notation_for_differentiation)
+    * Leibniz's notation
+    * Lagrange's notation
+    * D-notation
+    * Newton's notation
+    * Partial derivatives
+
 * Shannon Entropy
 
   * [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
@@ -55,8 +68,6 @@ This github repository holds references for, and scripts resulting from, various
   *  [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
 
   * [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
-
-* [Symbols](https://en.m.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
 * Taylor's Series
 
