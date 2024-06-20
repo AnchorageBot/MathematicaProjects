@@ -26,17 +26,20 @@ This github repository holds references for, and scripts resulting from, various
 
 ## Fun things to think about
 
-[Art of Problem Solving](https://artofproblemsolving.com/company)
+* Books & Journals
 
-[Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
+  * [Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
+ 
+  * [Notices of the American Mathematical Society](https://www.ams.org/notices)
+ 
+  * [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
+
+[Art of Problem Solving](https://artofproblemsolving.com/company)
 
 [Math Overflow](https://mathoverflow.net)
 
-[Notices of the American Mathematical Society](https://www.ams.org/notices)
-
 [Project Euler](https://projecteuler.net/about)
 
-[Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
 
 Shannon Entropy
 
