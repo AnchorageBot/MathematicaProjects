@@ -1,4 +1,8 @@
 (* Abstract:
+
+Well-posedness of the Euler equations in a stably stratified ocean in isopycnal coordinates by Théo Fradi
+- Pages 1 - 5
+
 This script models the Euler equations in a stably stratified ocean using both Eulerian and 
 isopycnal coordinates. It includes the full system of equations, equilibrium solutions, 
 perturbation analysis, and coordinate transformations. The model considers shear flows, 
