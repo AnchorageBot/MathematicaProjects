@@ -1,6 +1,6 @@
 (* Abstract:
 
-Well-posedness of the Euler equations in a stably stratified ocean in isopycnal coordinates by Théo Fradi
+Well-posedness of the Euler equations in a stably stratified ocean in isopycnal coordinates by Théo Fradin
 - Pages 1 - 5
 
 This script models the Euler equations in a stably stratified ocean using both Eulerian and 
