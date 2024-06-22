@@ -1,9 +1,12 @@
 (* Abstract:
+
 Well-posedness of the Euler equations in a stably stratified ocean in isopycnal coordinates by Théo Fradin
 - Pages 1 - 10
+
 This script models the Euler equations in a stably stratified ocean using both Eulerian and 
 isopycnal coordinates. It includes the full system of equations, equilibrium solutions, 
 perturbation analysis, coordinate transformations, and main theorem statements.
+
 Glossary:
 - Eulerian coordinates: Fixed spatial coordinate system for fluid dynamics
 - Isopycnal coordinates: Coordinate system following surfaces of constant density
