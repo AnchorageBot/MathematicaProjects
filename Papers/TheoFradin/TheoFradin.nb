@@ -1,0 +1,79 @@
+(* Abstract:
+This script models the Euler equations in a stably stratified ocean using both Eulerian and 
+isopycnal coordinates. It includes the full system of equations, equilibrium solutions, 
+perturbation analysis, and coordinate transformations. The model considers shear flows, 
+hydrostatic balance, and the effects of stratification on fluid dynamics.
+
+Glossary:
+- Eulerian coordinates: Fixed spatial coordinate system for fluid dynamics
+- Isopycnal coordinates: Coordinate system following surfaces of constant density
+- Stable stratification: Condition where denser fluid lies below less dense fluid
+- Shear flow: Flow where fluid layers slide past one another
+- Hydrostatic balance: Equilibrium between pressure gradient and gravitational force
+- Perturbation: Small deviation from a reference equilibrium state
+- Sobolev spaces: Function spaces used in the analysis of partial differential equations
+*)
+
+(* Domain and basic parameters *)
+d = 2; (* Horizontal dimension *)
+H = 1; (* Height of the strip *)
+T = 10; (* Time interval *)
+
+(* System (E^eul) in Eulerian coordinates *)
+Eeul = {
+  ∂t v^eul + (V^eul + ε v^eul).∇x v^eul + w^eul ∂z (V^eul + ε v^eul) + 
+    1/(ρ + ερ) ∇x p^eul == 0,
+  ε(∂t w^eul + (V^eul + ε v^eul).∇x w^eul + ε w^eul ∂z w^eul) + 
+    1/(ρ + ερ) ∂z p^eul + ρ/(ρ + ερ) == 0,
+  ∂t ρ + (V^eul + ε v^eul).∇x ρ + w^eul ∂z (ρ + ερ) == 0,
+  ∇x.v^eul + ∂z w^eul == 0
+}
+
+(* Coordinate transformation *)
+φ[t_, x_, r_] := {t, x, η[r][t, x]}
+
+(* Equilibrium solutions in isopycnal coordinates *)
+equilibriumSolution = {V^iso[r], 0, p^iso[r], η_eq[r]}
+
+(* Hydrostatic balance *)
+hydrostaticBalance = ∂r p^iso == -g ρ^iso
+
+(* Particular choice of η_eq *)
+η_eq[r_] := -r H
+
+(* Density at equilibrium *)
+ρ_eq[η_eq[r]] := ρ_eq[-r H] == g[r]
+
+(* Verification of coordinate change *)
+h_eq[r_] := -∂r η_eq[r] == H > 0
+
+(* Equilibrium relation *)
+equilibriumRelation = {V^iso[r], p^iso[r]} == {V^eul[-r H], p^eul[-r H]}
+
+(* Perturbation analysis *)
+ε = 0.1; (* Size of perturbation *)
+perturbedSolution = {
+  V^iso[t, x, r] == V^iso[r] + ε v^iso[t, x, r],
+  w^iso[t, x, r] == 0 + ε w^iso[t, x, r],
+  p^iso[t, x, r] == p^iso[r] + ε p^iso1[t, x, r],
+  η[t, x, r] == η_eq[r] + ε η1[t, x, r]
+}
+
+(* Additional definitions *)
+η[r_] := η_eq[r]
+V[r_]^iso := V^eul[r]
+p^iso[t_, x_, r_] := p^iso_eq[r] - 1/H (η[r] + ε η1[t, x, r])
+
+(* Change of coordinates *)
+φ[t_, x_, r_] := {t, x, η[r] + ε η1[t, x, r]}
+
+(* Ansatz on pressure *)
+pressureAnsatz = ∇⟂^2 p^iso == (∇x.p^iso_eq[·])(-(η[r] - r η1[t, x, r])) == 0
+
+(* Note: This script sets up the mathematical framework for studying 
+   the Euler equations in a stably stratified ocean using both Eulerian 
+   and isopycnal coordinates. It includes the full system of equations, 
+   equilibrium solutions, perturbation analysis, and coordinate transformations. 
+   The script is based on theoretical work in Sobolev spaces and considers 
+   the effects of stratification and shear flows. Solving this system would 
+   require advanced numerical methods and specific initial conditions. *)
