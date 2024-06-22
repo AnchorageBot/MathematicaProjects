@@ -235,4 +235,16 @@ remark13 = {
 (* Remark 1.4 *)
 remark14 = {
   "Let us discuss the smallness assumption on the shear velocity now. First notice that this implies that the Miles and Howard criterion (1.12) is verified for μ small enough.",
-  "Then,
+  "Then, notice that the total vorticity is defined as",
+  "ω_total := (∂r V_total - ∇x^⊥ w_total, -∇x^⊥.V_total)",
+  "Here, ∇x^⊥ := (-∂y, ∂x)",
+  "Thus, the assumption of small shear velocity |V'|_∞ ≤ √μ yields that the vorticity at equilibrium is of order √μ. Together with the assumption ε ≤ √μ, this implies that the total vorticity is of order √μ.",
+  "This is in accordance with the result in [CL14], where the authors study the well-posedness of the water waves equations with vorticity under this assumption."
+}
+
+(* Remark 1.5 *)
+remark15 = {
+  "Let us finally comment on the regularity s ≥ s_0 + 3/2 needed here.",
+  "Note that this is equivalent to s > d/2 + 2, where d + 1 is the dimension of the strip S_ε.",
+  "The regularity requirement s > d/2 + 2 is needed here due to the use of Alinhac's good unknown, which requires one derivative more than the classical energy method."
+}
