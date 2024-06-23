@@ -1,0 +1,297 @@
+(* Abstract:
+Well-posedness of the Euler equations in a stably stratified ocean in isopycnal coordinates by Théo Fradin
+- Pages 1 - 10
+This script models the Euler equations in a stably stratified ocean using both Eulerian and 
+isopycnal coordinates. It includes the full system of equations, equilibrium solutions, 
+perturbation analysis, coordinate transformations, and main theorem statements.
+Glossary:
+- Eulerian coordinates: Fixed spatial coordinate system for fluid dynamics
+- Isopycnal coordinates: Coordinate system following surfaces of constant density
+- Stable stratification: Condition where denser fluid lies below less dense fluid
+- Shear flow: Flow where fluid layers slide past one another
+- Hydrostatic balance: Equilibrium between pressure gradient and gravitational force
+- Perturbation: Small deviation from a reference equilibrium state
+- Sobolev spaces: Function spaces used in the analysis of partial differential equations
+*)
+
+(* Domain and basic parameters *)
+d = 2; (* Horizontal dimension *)
+H = 1; (* Height of the strip *)
+T = 10; (* Time interval *)
+
+(* System (E^eul) in Eulerian coordinates *)
+Eeul = {
+  ∂t v^eul + (V^eul + ε v^eul).∇x v^eul + w^eul ∂z (V^eul + ε v^eul) + 
+    1/(ρ + ερ) ∇x p^eul == 0,
+  ε(∂t w^eul + (V^eul + ε v^eul).∇x w^eul + ε w^eul ∂z w^eul) + 
+    1/(ρ + ερ) ∂z p^eul + ρ/(ρ + ερ) == 0,
+  ∂t ρ + (V^eul + ε v^eul).∇x ρ + w^eul ∂z (ρ + ερ) == 0,
+  ∇x.v^eul + ∂z w^eul == 0
+}
+
+(* Coordinate transformation *)
+φ[t_, x_, r_] := {t, x, η[r][t, x]}
+
+(* Equilibrium solutions in isopycnal coordinates *)
+equilibriumSolution = {V^iso[r], 0, p^iso[r], η_eq[r]}
+
+(* Hydrostatic balance *)
+hydrostaticBalance = ∂r p^iso == -g ρ^iso
+
+(* Particular choice of η_eq *)
+η_eq[r_] := -r H
+
+(* Density at equilibrium *)
+ρ_eq[η_eq[r]] := ρ_eq[-r H] == g[r]
+
+(* Verification of coordinate change *)
+h_eq[r_] := -∂r η_eq[r] == H > 0
+
+(* Equilibrium relation *)
+equilibriumRelation = {V^iso[r], p^iso[r]} == {V^eul[-r H], p^eul[-r H]}
+
+(* Perturbation analysis *)
+ε = 0.1; (* Size of perturbation *)
+perturbedSolution = {
+  V^iso[t, x, r] == V^iso[r] + ε v^iso[t, x, r],
+  w^iso[t, x, r] == 0 + ε w^iso[t, x, r],
+  p^iso[t, x, r] == p^iso[r] + ε p^iso1[t, x, r],
+  η[t, x, r] == η_eq[r] + ε η1[t, x, r]
+}
+
+(* Additional definitions *)
+η[r_] := η_eq[r]
+V[r_]^iso := V^eul[r]
+p^iso[t_, x_, r_] := p^iso_eq[r] - 1/H (η[r] + ε η1[t, x, r])
+
+(* Change of coordinates *)
+φ[t_, x_, r_] := {t, x, η[r] + ε η1[t, x, r]}
+
+(* Ansatz on pressure *)
+pressureAnsatz = ∇⟂^2 p^iso == (∇x.p^iso_eq[·])(-(η[r] - r η1[t, x, r])) == 0
+
+(* Taylor expansion of p^iso *)
+p^iso[t, x, r] = p^iso_eq[r] + O(ε)
+
+(* Definition of b *)
+b := 1/ε (1 - ρ_eq[η_eq + εη]/ρ_eq[η_eq]) g
+
+(* System (1.8) in isopycnal coordinates *)
+system18 = {
+  ∂t v^iso + (V^iso + ε v^iso).∇x v^iso + 1/ε ∇x p^iso == 0,
+  (∂t w^iso + (V^iso + ε v^iso).∇x w^iso) + 1/ε ∂r p^iso + b == 0,
+  ∂t η + (V^iso + ε v^iso).∇x η - w^iso == 0,
+  ∇x.v^iso + 1/ε ∇x.V^iso + ∂r w^iso == 0
+}
+
+(* Domain for system (1.8) *)
+domain18 = "(0, T) × S_ε"
+
+(* Boundary conditions (1.9) *)
+boundaryConditions19 = {
+  w^iso[t, x, 0] == w^iso[t, x, 1] == 0,
+  domain = "(0, T) × ℝ^d"
+}
+
+(* Initial conditions (1.10) *)
+initialConditions110 = {
+  v^iso[0] == v^iso_in,
+  w^iso[0] == w^iso_in,
+  η[0] == η_in,
+  domain = "S_ε"
+}
+
+(* Taylor expansion of ρ around η(r) *)
+b[t, x, r] = g'[r]/g[r] η[t, x, r] + O(ε)
+
+(* Properties of b *)
+bProperties = {
+  "b is of order 1, not of order 1/ε",
+  "N^2(r) := g'[r]/g[r] is the Brunt-Väisälä frequency",
+  "N^2(r) plays an important role in the dynamics",
+  "See [DLS20] for its role in the coupling of internal waves",
+  "Rigorous proof in Lemma C.1 using composition estimates"
+}
+
+(* Note on previous studies *)
+previousStudies = {
+  "System (1.8) has been studied in [DR22]",
+  "More natural ansatz of considering directly a perturbation of an equilibrium",
+  "Free-surface setting",
+  "Authors consider a diffusion term from mesoscale turbulence [GM90]",
+  "Diffusion term regularizes the system",
+  "Used to prove well-posedness of system (1.8)",
+  "Analogous system (1.7) in Eulerian coordinates proved well-posed without this term [DLS20]"
+}
+
+(* Motivation for current study *)
+studyMotivation = "Investigate well-posedness of this system in isopycnal coordinates without the regularization used in [DR22]"
+
+(* Theorem reference *)
+theoremReference = "Theorem 1.1 is an extension of the existence result in [DR22, Theorem 1.2]"
+
+(* 1.3 Non-dimensionalization *)
+
+(* Characteristic scales *)
+L = "characteristic horizontal scale";
+H = "characteristic vertical scale";
+μ = H/L; (* shallowness parameter *)
+
+(* Non-dimensionalized system (1.11) in Eulerian coordinates *)
+system111 = {
+  ∂t v^eul + (V^eul + ε v^eul).∇x v^eul + w^eul ∂z (V^eul + ε v^eul) + 
+    1/(ρ + ερ) ∇x p^eul == 0,
+  
+  μ(∂t w^eul + (V^eul + ε v^eul).∇x w^eul + εw^eul ∂z w^eul) + 
+    1/(ρ + ερ) ∂z p^eul + ρ/(ρ + ερ) == 0,
+  
+  ∂t ρ + (V^eul + ε v^eul).∇x ρ + w^eul ∂z(ρ + ερ) == 0,
+  
+  ∇x.v^eul + ∂z w^eul == 0
+}
+
+(* Regime of interest *)
+regimeOfInterest = "μ << 1, as for oceanic applications one can have μ ~ 10^(-6) (see [Val17])";
+
+(* Hydrostatic equations *)
+hydrostaticEquations = "Setting μ = 0 in (1.11)";
+hydrostaticNotes = {
+  "Very singular in the homogeneous case (i.e., ρ being constant and b being zero in (1.11))",
+  "Ill-posedness of the initial value problem of the linearized system (that is, setting ε = 0 in (1.11)) was proved by Renardy in [Ren09]",
+  "Masmoudi and Wong showed in [MW12] existence and uniqueness of solutions for the two-dimensional, homogeneous case, under the Rayleigh criterion"
+}
+
+(* Rayleigh criterion *)
+rayleighCriterion = ∂z^2 (V.ν V^eul) ≥ ϰ > 0;
+
+(* Miles and Howard criterion for stable stratification *)
+milesHowardCriterion = "∀z ∈ [-H,0], -ρ'_eq(z)/(ρ_eq(z)|V'_eq(z)|^2) ≥ 1/4";
+
+(* Notes on linearized equations *)
+linearizedEquationsNotes = {
+  "[Mi61], [How61] gives a sufficient condition to prevent unstable modes for the linearized equations around an equilibrium shear flow (ρ_eq(z), V_eq(z))",
+  "Not enough to conclude well-posedness of the hydrostatic equations, which is still an open problem",
+  "In [DL23-1], the authors found a stratified shear flow around which the hydrostatic system is ill-posed"
+}
+
+(* Notes on [DLS20] results *)
+DLS20Results = {
+  "Using the stable stratification assumption",
+  "Restricting to the case of uniform stratification (i.e., ρ_eq is an exponential)",
+  "Using the Boussinesq approximation (density assumed constant in momentum equations, except in buoyancy term b)",
+  "With well-prepared initial data and no shear flow",
+  "Prove existence and stability of solutions on a time interval [0,T) with T of order μ^2",
+  "In Theorem 1.1 below, similar result for non-zero shear flow",
+  "Analysis gives rise to a time of existence uniform in ε and μ",
+  "More thorough comparison with their result is provided after the statement of Theorem 1.1"
+}
+
+(* Non-dimensional form of equations (1.8) in isopycnal coordinates *)
+systemE = {
+  ∂t v + (V + ε v).∇x v + 1/ε ∇x^F p == 0,
+  μ(∂t w + (V + ε v).∇x w) + 1/ε ∂r p + b == 0,
+  ∂t η + (V + ε v).∇x η - w == 0,
+  ∇x^F.v + 1/ε ∇x^F.V + ∂r w == 0
+}
+
+(* Domain for system (E) *)
+domainE = "(0, T) × S_ε"
+
+(* Buoyancy term in non-dimensional form *)
+b = 1/ε (1 - ρ_eq[η_eq + εη]/ρ_eq[η_eq])
+
+(* Note on existence result from [DR22, Theorem 1.2] *)
+existenceNoteFromDR22 = "Gives a time of existence uniform in the shallow-water parameter μ, though by using a regularizing term."
+
+(* Theorem 1.1 *)
+theorem11 = {
+  "Let d ∈ ℕ*, s_0 > d/2, s ∈ ℕ with s ≥ s_0 + 3/2.",
+  "Let ε ∈ (0,1], μ ∈(0,1].",
+  "Let V, g ∈ W^(s+1,∞)((0,1)), (v_in, w_in, η_in) ∈ H^s(S_ε)^(d+2) such that assumptions (H.1), (H.2), (H.3), (H.4), (H.5) are satisfied.",
+  "Assume further that the shear flow is small with respect to μ and that we are in the weakly non-linear regime:",
+  "|V'|_∞ ≤ √μ,",
+  "ε ≤ √μ.",
+  "Then there exists T > 0 depending only on M, M_in such that the following holds. There exists a unique solution (V, w, η) ∈ L^∞((0, T), H^s(S_ε)^(d+2)) to (E) with initial data (v_in, w_in, η_in)."
+}
+
+(* Remark 1.2 *)
+remark12 = {
+  "More precisely, with the notations of Theorem 1.1, our analysis yields a time of existence of the solution",
+  "T = O((1 + ε/√μ + |V'|_∞/√μ)^(-1))"
+}
+
+(* Remark 1.3 *)
+remark13 = {
+  "This result is to be compared with [DR22, Theorem 1.2], where the authors prove in particular the well-posedness of a system similar to (E), but with a regularizing term and a slightly different ansatz.",
+  "Here the use of Alinhac's good unknown, presented in Appendix B, allows us to study the system (E) without this regularizing term.",
+  "The ansatz that we use here allows us to keep the symmetry of the system (1.7) (see the term (iii) in the proof of Proposition 3.4).",
+  "This result is in accordance with [DLS20, Theorem 2], where the well-posedness is established in Eulerian coordinates without any regularizing term, in the case of no background current V.",
+  "However, note that the assumptions in [DLS20, Theorem 2] are more restrictive than the ones in Theorem 1.1.",
+  "Namely, in the present study we do not assume that the Brunt-Väisälä frequency is constant, the strong Boussinesq assumption (i.e. that the density is assumed constant in the momentum equations, except in the buoyancy term b), nor the good preparation of the initial data, and we allow a background current.",
+  "The downside is that the time of existence in [DLS20, Theorem 2] is of order √μ/ε whereas in Theorem 1.1, it is only uniform with respect to ε/√μ (in the case of no background current).",
+  "A more detailed comparison is provided in Remark 3.7."
+}
+
+  (* Continuing from the previous script *)
+
+(* Remark 1.4 continued *)
+remark14 = {
+  "Let us discuss the smallness assumption on the shear velocity now. First notice that this implies that the Miles and Howard criterion (1.12) is verified for μ small enough.",
+  "Then, notice that the total vorticity is defined as",
+  "ω_total := (∂r V_total - ∇x^⊥ w_total, -∇x^⊥.V_total)",
+  "Here, ∇x^⊥ := (-∂y, ∂x)",
+  "Thus, the assumption of small shear velocity |V'|_∞ ≤ √μ yields that the vorticity at equilibrium is of order √μ. Together with the assumption ε ≤ √μ, this implies that the total vorticity is of order √μ.",
+  "This is in accordance with the result in [CL14], where the authors study the well-posedness of the water waves equations with vorticity under this assumption."
+}
+
+(* Remark 1.5 *)
+remark15 = {
+  "Let us finally comment on the regularity s ≥ s_0 + 3/2 needed here.",
+  "Note that this is equivalent to s > d/2 + 2, where d + 1 is the dimension of the strip S_ε.",
+  "The regularity requirement s > d/2 + 2 is needed here due to the use of Alinhac's good unknown, which requires one derivative more than the classical energy method."
+}
+
+(* Classical critical regularity *)
+classicalCriticalRegularity = {
+  "The classical critical regularity for similar results on the Euler equations is N/2 + 1, where N denotes the dimension of the domain occupied by the fluid.",
+  "This discrepancy is due to the non-linearity introduced by the operator ∇x^F, namely recall the expression of the term ∇x^F P in (E)",
+  "∇x^F P := ∇x P + ε (∇x η)/(1 + εh) ∂r P",
+  "where h := -∂r η. On a technical viewpoint, this is the sharp regularity needed on η so that (∇x η, h) ∈ W^1,∞ by Sobolev embeddings."
+}
+
+(* 1.5. Perspectives *)
+perspectives = {
+  "As shown in this study, the energy method can be applied to the reformulation (E) of the Euler equations in isopycnal coordinates, without the regularization used in [DR22].",
+  "This offers the possibility of using the reformulation in isopycnal coordinates for the study of stratified flows.",
+  "One advantage of the isopycnal coordinates, besides the quasi-2D structure, is the rectification of the isopycnals.",
+  "In the free surface case, assuming that the surface is initially an isopycnal, this change of coordinates also rectifies the surface (see for instance [DR22]).",
+  "In this setting the free-surface case is quite close to the rigid lid case, and we expect that our study can be extended to the free-surface case with minor adaptations."
+}
+
+(* Additional notes on existence time *)
+existenceTimeNotes = {
+  "Recall now that under the assumptions of no shear flow, uniform stratification and strong Boussinesq assumption, Theorem 1.1 yields a time of existence of order 1 with respect to ε.",
+  "However, with the additional assumption of good preparation on the initial data, [DLS20, Theorem 2] yields an existence time of order 1/ε with respect to ε.",
+  "Therefore, it remains to study the phenomenon arising in the long-time dynamics when no assumption of good preparation is made.",
+  "In [RL23], the authors perform a similar study, and show the existence of a boundary layer at the bottom."
+}
+
+(* Future research directions *)
+futureResearch = {
+  "Eventually, it would be of utmost interest to study a specific stratification that is ubiquitous in oceanography, namely two layers of (almost) constant density, separated by a pycnocline, where the density varies sharply but in a continuous manner.",
+  "In [DLS20], the authors suggested to rely on the modal decomposition they introduced to obtain the two-layer shallow water equations as a limit when the thickness of the pycnocline and the shallow water parameter μ both tend to zero.",
+  "The isopycnal coordinates seem a useful setting, as the isopycnals are straightened, therefore so is the pycnocline - which can be viewed as a blurred interface between the two layers.",
+  "Relying on the regularization used in [DR22], the authors of [ABD24] proved the convergence of this continuous stratification with thin pycnocline setting towards the two-layer setting, in the hydrostatic case."
+}
+
+(* 1.6. Structure of the proof and plan of the paper *)
+proofStructure = {
+  "In Section 2, we show how the pressure is defined from the other unknowns through an elliptic equation.",
+  "We derive in Subsection 2.1 a first set of elliptic estimates on the gradient of the pressure, showing how the standard strategy yields a loss of derivatives in the estimates.",
+  "These estimates are then used in Subsection 2.2 together with Alinhac's good unknown to derive estimates without any loss of derivatives."
+}
+
+(* Note: This script now incorporates all the information from the previous updates, 
+   including the main theorem, remarks, perspectives, future research directions, 
+   and an outline of the proof structure. It provides a comprehensive overview of 
+   the mathematical framework and key results presented in the paper. *)
