@@ -73,6 +73,8 @@ This github repository holds references for, and scripts resulting from, various
 
 * Taylor's Series
 
+  * [Taylor series | Chapter 11, Essence of calculus - 3Blue1Brown - YouTube](https://m.youtube.com/watch?v=3d6DsjIBzJ4)
+
   * [Taylor Swift - Polynomial Approximations (Taylor's Version) - Mr. Schuler - YouTube](https://youtu.be/iB9r8mKMUtU?si=ptq_Q7oGyui7SIwC)
 
 * Tensors
