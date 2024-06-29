@@ -74,6 +74,8 @@ This github repository holds references for, and scripts resulting from, various
 * Taylor's Series
 
   * [Dear Calculus 2 Students, This is why you're learning Taylor Series - Zach Star - YouTube](https://youtu.be/eX1hvWxmJVE?si=YzZSTGFvoMRM6Hrf)
+ 
+  * [Oxford Calculus: Taylor's Theorem Explained with Examples and Derivation - Tom Rocks Maths - YouTube](https://youtu.be/DULzJmUHN5g?si=cllIWVANh8NaK-uT)
 
   * [Taylor series | Chapter 11, Essence of calculus - 3Blue1Brown - YouTube](https://m.youtube.com/watch?v=3d6DsjIBzJ4)
 
