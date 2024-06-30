@@ -55,6 +55,8 @@ This github repository holds references for, and scripts resulting from, various
   * [Basic Maths for Physics - Physics by Alexander FufaeV - YouTube](https://youtube.com/playlist?list=PLTjLwQcqQzNJciwenRdt_mZcUVf29yMtt&si=rlWqLMMiQRBUnu7K)
 
   * [Partial Differential Equations - MathTheBeautiful - YouTube](https://youtube.com/playlist?list=PLlXfTHzgMRUK56vbQgzCVM9vxjKxc8DCr&si=VabezdX0r-oTtH4s)
+ 
+  * [Partial Differential Equations Related to Fluid Mechanics - Dr. Eduard Feireisl - YouTube](https://youtu.be/qIxVvecPSbc?si=ucKtzuSE85ZWs795)
 
 * Notation
 
