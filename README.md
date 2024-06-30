@@ -60,6 +60,10 @@ This github repository holds references for, and scripts resulting from, various
  
   * [Partial Differential Equations Related to Fluid Mechanics - Dr. Eduard Feireisl - YouTube](https://youtu.be/qIxVvecPSbc?si=ucKtzuSE85ZWs795)
 
+* Differential Geometry
+
+  * [Discrete Differential Geometry - Keenan Crane - YouTube](https://youtube.com/playlist?list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS&si=lKUGqWDcxi75q0O0)
+
 * Notation
 
   * [Glossary of Mathematical Symbols - wiki](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
