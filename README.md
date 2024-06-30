@@ -53,6 +53,8 @@ This github repository holds references for, and scripts resulting from, various
 * Differential Equations
 
   * [Basic Maths for Physics - Physics by Alexander FufaeV - YouTube](https://youtube.com/playlist?list=PLTjLwQcqQzNJciwenRdt_mZcUVf29yMtt&si=rlWqLMMiQRBUnu7K)
+ 
+  * [Differential equations - 3Blue1Brown - YouTube](https://youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6&si=aQqVzzNzESS1i0-a)
 
   * [Partial Differential Equations - MathTheBeautiful - YouTube](https://youtube.com/playlist?list=PLlXfTHzgMRUK56vbQgzCVM9vxjKxc8DCr&si=VabezdX0r-oTtH4s)
  
