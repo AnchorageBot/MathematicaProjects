@@ -1,0 +1,39 @@
+(* Abstract:
+   This Mathematica script demonstrates the concept of a parameterized curve in the 2D plane.
+   It defines and plots a simple parameterized curve: a unit circle.
+   The script uses the parametric equations x = cos(t) and y = sin(t), where t ranges from 0 to 2π.
+   It visualizes the curve and marks specific points to illustrate how the parameter t traces the circle.
+
+   Author: Claude
+   Date: June 30, 2024
+*)
+
+(* Define the parameterized function for a unit circle *)
+gamma[t_] := {Cos[t], Sin[t]}
+
+(* Create the main plot of the circle *)
+mainPlot = ParametricPlot[gamma[t], {t, 0, 2 Pi},
+  PlotStyle -> Blue,
+  Frame -> True,
+  FrameLabel -> {"x", "y"},
+  PlotLabel -> "Parameterized Curve: Circle",
+  AspectRatio -> 1,
+  GridLines -> Automatic
+]
+
+(* Define specific points to mark on the circle *)
+points = {0, Pi/2, Pi, 3Pi/2};
+
+(* Create points and labels *)
+pointsPlot = ListPlot[gamma /@ points,
+  PlotStyle -> {Red, PointSize[0.02]},
+  Epilog -> {
+    Text[Style["t = 0", 10], gamma[0], {-1, -1}],
+    Text[Style["t = π/2", 10], gamma[Pi/2], {0, 1}],
+    Text[Style["t = π", 10], gamma[Pi], {1, -1}],
+    Text[Style["t = 3π/2", 10], gamma[3Pi/2], {0, -1}]
+  }
+]
+
+(* Combine the main plot with the points *)
+Show[mainPlot, pointsPlot]
