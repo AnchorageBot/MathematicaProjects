@@ -50,6 +50,10 @@ This github repository holds references for, and scripts resulting from, various
 
   * [Wolfram U](https://www.wolfram.com/wolfram-u/)
 
+* Differential Equations
+
+  * [Partial Differential Equations - MathTheBeautiful - YouTube](https://youtube.com/playlist?list=PLlXfTHzgMRUK56vbQgzCVM9vxjKxc8DCr&si=VabezdX0r-oTtH4s)
+
 * Notation
 
   * [Glossary of Mathematical Symbols - wiki](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
