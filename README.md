@@ -28,6 +28,8 @@ This github repository holds references for, and scripts resulting from, various
 
 * Books & Journals
 
+  * [All The Math You Missed (But Need To Know For Graduate Schoo)l - Thomas Garrity](https://www.cambridge.org/core/books/all-the-math-you-missed/02DEDEA470A50F689C9686D835108456?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark)
+  
   * [arXiv - Math](https://arxiv.org/archive/math)
 
   * [Love and Math: The Heart of Hidden Reality - Dr. Edward Frenkel](https://www.goodreads.com/book/show/17290683-love-and-math)
