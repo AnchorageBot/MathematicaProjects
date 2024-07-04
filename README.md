@@ -64,7 +64,7 @@ This github repository holds references for, and scripts resulting from, various
 
   * [Discrete Differential Geometry - Keenan Crane - YouTube](https://youtube.com/playlist?list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS&si=lKUGqWDcxi75q0O0)
  
-  * [Geometrical Methods of Mathematical Physics - Bernard F. Schutz, Max-Planck-Institut für Gravitationsphysik, Germany](https://www.cambridge.org/core/books/geometrical-methods-of-mathematical-physics/F72F2C7320356F9EEC347308DB5560BB)
+  * [Geometrical Methods of Mathematical Physics - Bernard F. Schutz, Max-Planck-Institut für Gravitationsphysik, Germany](https://www.cambridge.org/core/books/geometrical-methods-of-mathematical-physics/F72F2C7320356F9EEC347308DB5560BB?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark)
 
 * Notation
 
