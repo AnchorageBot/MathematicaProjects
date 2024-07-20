@@ -81,6 +81,10 @@ This github repository holds references for, and scripts resulting from, various
     * Newton's notation
     * Partial derivatives
 
+* Prime Numbers
+  
+  * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Dr. Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
+
 * Shannon Entropy
 
   * [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
