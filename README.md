@@ -45,6 +45,8 @@ This github repository holds references for, and scripts resulting from, various
   * [Art of Problem Solving](https://artofproblemsolving.com/company)
 
   * [Math Overflow](https://mathoverflow.net)
+ 
+  * [The Millennium Prize Problems - Clay Mathematics Institute](https://www.claymath.org/millennium-problems/)
 
   * [Project Euler](https://projecteuler.net/about)
  
