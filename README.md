@@ -83,7 +83,7 @@ This github repository holds references for, and scripts resulting from, various
 
 * Prime Numbers
   
-  * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Dr. Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
+  * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
 
 * Shannon Entropy
 
