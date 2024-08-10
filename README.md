@@ -119,6 +119,8 @@ This github repository holds references for, and scripts resulting from, various
  
   * [Manifolds - The Bright Side of Mathematics - YouTube - 42 part series](https://youtube.com/playlist?list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1&si=ruHI70nxnMa2pFfr)
  
+  * [The Insane Math Of Knot Theory - Veratasium - YouTube](https://youtu.be/8DBhTXM_Br4?si=I9djl8oRDgef-48Z)
+ 
   * [Knot Theory - Math at Andrews University - YouTube - 12 part series](https://youtube.com/playlist?list=PLOROtRhtegr4c1H1JaWN1f6J_q1HdWZOY&si=-LHheSaZ00KKSu_6)
  
   * [The Man Who Invented Fifteen Hundred Necktie Knots - Matthew Hutson](https://www.newyorker.com/culture/annals-of-inquiry/the-man-who-invented-fifteen-hundred-necktie-knots?utm_source=nl&utm_brand=tny&utm_mailing=TNY_Daily_111023&utm_campaign=aud-dev&utm_medium=email&utm_term=tny_daily_digest&bxid=5bd67c613f92a41245df5e2d&cndid=46262617&hasha=da303cb59434b9d8ea60715b62eedc2c&hashb=5119ac49982818ca5a2e08c2d44f0c17478d8500&hashc=2610d230132e433109dbe2916027d67920b2d297cec127ce4562826660c842ae&esrc=VERSO_NAVIGATION&mbid=CRMNYR012019)
