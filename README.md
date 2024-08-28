@@ -46,9 +46,11 @@ This github repository holds references for, and scripts resulting from, various
 
   * [Math Overflow](https://mathoverflow.net)
  
-  * [The Millennium Prize Problems - Clay Mathematics Institute](https://www.claymath.org/millennium-problems/)
-
   * [Project Euler](https://projecteuler.net/about)
+ 
+  * [The Millennium Prize Problems - Clay Mathematics Institute](https://www.claymath.org/millennium-problems/)
+ 
+  * [The On-Line Encyclopedia of Integer Sequences - OEIS](https://oeis.org)
  
   * [William Lowell Putnam Mathematical Competition](https://maa.org/math-competitions/william-lowell-putnam-mathematical-competition)
 
