@@ -134,6 +134,8 @@ This github repository holds references for, and scripts resulting from, various
   * [Getting a Handle on the Conway Knot - Dr. Jennifer Hom](https://www.ams.org/journals/bull/2022-59-01/S0273-0979-2021-01745-9/)
 
   * [A Gentle Introduction to Knots, Links, and Braids - Dr. Ruben Aldrovandi and Dr. Roldao Da Rocha Jr](https://blackwells.co.uk/bookshop/product/Gentle-Introduction-To-Knots-Links-And-Braids-A-by-Ruben-Aldrovandi-Roldao-Da-Rocha-Jr/9789811249327)
+ 
+  * [Lisa Piccirillo: Exotic Phenomena in dimension 4 - Current Developments in Math (April 2024) - Harvard Mathematics Department - YouTube](https://youtu.be/BXwALAkPubc?si=M2aOfa_VLRED7oSV)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
