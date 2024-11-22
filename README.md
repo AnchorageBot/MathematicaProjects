@@ -40,6 +40,8 @@ This github repository holds references for, and scripts resulting from, various
  
   * [Society for Industrial and Applied Mathematics - Journal on Applied Math](https://www.siam.org/publications/journals/siam-journal-on-applied-mathematics-siap)
  
+  * [Quanta Magazine](https://www.quantamagazine.org)
+ 
 * Communities & Projects
 
   * [Art of Problem Solving](https://artofproblemsolving.com/company)
