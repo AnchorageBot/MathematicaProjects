@@ -123,6 +123,8 @@ This github repository holds references for, and scripts resulting from, various
  
   * [Manifolds - The Bright Side of Mathematics - YouTube - 42 part series](https://youtube.com/playlist?list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1&si=ruHI70nxnMa2pFfr)
  
+  * [Teen Mathematicians Tie Knots Through a Mind-Blowing Fractal - Gregory Barber - Quanta](https://www.quantamagazine.org/teen-mathematicians-tie-knots-through-a-mind-blowing-fractal-20241126/)
+ 
   * [The Insane Math Of Knot Theory - Veratasium - YouTube](https://youtu.be/8DBhTXM_Br4?si=I9djl8oRDgef-48Z)
  
   * [Knot Theory - Math at Andrews University - YouTube - 12 part series](https://youtube.com/playlist?list=PLOROtRhtegr4c1H1JaWN1f6J_q1HdWZOY&si=-LHheSaZ00KKSu_6)
