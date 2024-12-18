@@ -91,13 +91,16 @@ This github repository holds references for, and scripts resulting from, various
   
   * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
 
-* Shannon Entropy
+* (Shannon) Entropy
 
   * [How Shannon Entropy Imposes Fundamental Limits on Communication - Kevin Hartnett - Quanta](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
 
   *  [A New Perspective of Entropy - Dr. Tai-Danae Bradley](https://www.math3ma.com/blog/a-new-perspective-of-entropy)
 
   * [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
+ 
+  * [What Is Entropy? A Measure of Just How Little We Really Know 
+- Zack Savitsky - Quanta](https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/)
 
 * Taylor's Series
 
