@@ -99,8 +99,7 @@ This github repository holds references for, and scripts resulting from, various
 
   * [Entropy as a Topological Operad Derivation - Dr. Tai-Danae Bradley - arXiv](https://arxiv.org/pdf/2107.09581.pdf)
  
-  * [What Is Entropy? A Measure of Just How Little We Really Know 
-- Zack Savitsky - Quanta](https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213)
+  * [What Is Entropy? A Measure of Just How Little We Really Know - Zack Savitsky - Quanta](https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213)
 
 * Taylor's Series
 
