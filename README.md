@@ -87,9 +87,11 @@ This github repository holds references for, and scripts resulting from, various
     * Newton's notation
     * Partial derivatives
 
-* Prime Numbers
+* Number Theory
   
   * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
+ 
+  * [Rational or Not? This Basic Math Question Took Decades to Answer - Dr. Erica Klarreich - Quanta](https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/)
 
 * (Shannon) Entropy
 
