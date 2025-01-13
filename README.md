@@ -96,6 +96,8 @@ This github repository holds references for, and scripts resulting from, various
   * [‘Sensational’ Proof Delivers New Insights Into Prime Numbers - Jordana Cepelewicz - Quanta](https://www.quantamagazine.org/sensational-proof-delivers-new-insights-into-prime-numbers-20240715/)
  
   * [Rational or Not? This Basic Math Question Took Decades to Answer - Dr. Erica Klarreich - Quanta](https://www.quantamagazine.org/rational-or-not-this-basic-math-question-took-decades-to-answer-20250108/)
+ 
+  * [Even After 22 Trillion Digits, We’re Still No Closer To The End Of Pi - Dr. Oliver Roeder - 538](https://fivethirtyeight.com/features/even-after-22-trillion-digits-were-still-no-closer-to-the-end-of-pi/)
 
 * (Shannon) Entropy
 
